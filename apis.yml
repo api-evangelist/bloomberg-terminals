@@ -1,103 +1,118 @@
 name: Bloomberg Terminal APIs
-description: Collection of APIs and data services available through Bloomberg Terminal for financial data, market information, and analytics
-image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
+description: >-
+  Collection of APIs and data services available through Bloomberg Terminal for financial
+  data, market information, and analytics.
+image: 
+  https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
 created: '2024'
 modified: '2024'
 specificationVersion: '0.18'
 url: https://www.bloomberg.com/professional/solution/bloomberg-terminal/
 apis:
-- name: Bloomberg Data API (DAPI)
-  description: Provides programmatic access to Bloomberg data including reference data, historical data, and market data
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
-  baseURL: https://api.bloomberg.com
-  tags:
-  - Financial Data
-  - Market Data
-  - Reference Data
-  - Historical Data
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: Authentication
-    url: https://www.bloomberg.com/professional/support/api-library/
-  contact:
-  - FN: Bloomberg API Support
-    email: apisupport@bloomberg.net
-- name: Bloomberg Server API (SAPI)
-  description: Server-based API for high-volume data requests and batch processing
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
-  baseURL: https://sapi.bloomberg.com
-  tags:
-  - Server API
-  - Batch Processing
-  - High Volume
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: SDK
-    url: https://www.bloomberg.com/professional/support/api-library/
-  contact:
-  - FN: Bloomberg API Support
-    email: apisupport@bloomberg.net
-- name: Bloomberg B-PIPE
-  description: Real-time streaming data feed for market data, news, and analytics
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
-  humanURL: https://www.bloomberg.com/professional/product/b-pipe/
-  tags:
-  - Real-time Data
-  - Streaming
-  - Market Data
-  - Low Latency
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/product/b-pipe/
-  - type: Pricing
-    url: https://www.bloomberg.com/professional/product/b-pipe/
-  contact:
-  - FN: Bloomberg Sales
-    url: https://www.bloomberg.com/professional/request-demo/
-- name: Bloomberg Excel API
-  description: Excel Add-in for accessing Bloomberg data directly in spreadsheets
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
-  humanURL: https://www.bloomberg.com/professional/support/software-updates/
-  tags:
-  - Excel
-  - Spreadsheet
-  - Desktop API
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/software-updates/
-  - type: Support
-    url: https://www.bloomberg.com/professional/support/
-  contact:
-  - FN: Bloomberg Support
-    url: https://www.bloomberg.com/professional/support/
-- name: Bloomberg EMSX API
-  description: Execution Management System API for electronic trading and order management
-  image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
-  humanURL: https://www.bloomberg.com/professional/product/execution-management-system/
-  tags:
-  - Trading
-  - Order Management
-  - Execution
-  - EMSX
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: SDK
-    url: https://www.bloomberg.com/professional/support/api-library/
-  contact:
-  - FN: Bloomberg API Support
-    email: apisupport@bloomberg.net
+  - name: Bloomberg Data API (DAPI)
+    description: >-
+      Provides programmatic access to Bloomberg data including reference data, historical
+      data, and market data.
+    image: 
+      https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
+    humanURL: https://www.bloomberg.com/professional/support/api-library/
+    baseURL: https://api.bloomberg.com
+    tags:
+      - Financial Data
+      - Market Data
+      - Reference Data
+      - Historical Data
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/support/api-library/
+      - type: Authentication
+        url: https://www.bloomberg.com/professional/support/api-library/
+    contact:
+      - FN: Bloomberg API Support
+        email: apisupport@bloomberg.net
+  - name: Bloomberg Server API (SAPI)
+    description: >-
+      Server-based API for high-volume data requests and batch processing.
+    image: 
+      https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
+    humanURL: https://www.bloomberg.com/professional/support/api-library/
+    baseURL: https://sapi.bloomberg.com
+    tags:
+      - Server API
+      - Batch Processing
+      - High Volume
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/support/api-library/
+      - type: SDK
+        url: https://www.bloomberg.com/professional/support/api-library/
+    contact:
+      - FN: Bloomberg API Support
+        email: apisupport@bloomberg.net
+  - name: Bloomberg B-PIPE
+    description: >-
+      Real-time streaming data feed for market data, news, and analytics.
+    image: 
+      https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
+    humanURL: https://www.bloomberg.com/professional/product/b-pipe/
+    tags:
+      - Real-time Data
+      - Streaming
+      - Market Data
+      - Low Latency
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/product/b-pipe/
+      - type: Pricing
+        url: https://www.bloomberg.com/professional/product/b-pipe/
+    contact:
+      - FN: Bloomberg Sales
+        url: https://www.bloomberg.com/professional/request-demo/
+  - name: Bloomberg Excel API
+    description: >-
+      Excel Add-in for accessing Bloomberg data directly in spreadsheets.
+    image: 
+      https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
+    humanURL: https://www.bloomberg.com/professional/support/software-updates/
+    tags:
+      - Excel
+      - Spreadsheet
+      - Desktop API
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/support/software-updates/
+      - type: Support
+        url: https://www.bloomberg.com/professional/support/
+    contact:
+      - FN: Bloomberg Support
+        url: https://www.bloomberg.com/professional/support/
+  - name: Bloomberg EMSX API
+    description: >-
+      Execution Management System API for electronic trading and order management.
+    image: 
+      https://www.bloomberg.com/company/wp-content/uploads/sites/2/2020/03/bloomberg-logo-1.png
+    humanURL: 
+      https://www.bloomberg.com/professional/product/execution-management-system/
+    tags:
+      - Trading
+      - Order Management
+      - Execution
+      - EMSX
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/support/api-library/
+      - type: SDK
+        url: https://www.bloomberg.com/professional/support/api-library/
+    contact:
+      - FN: Bloomberg API Support
+        email: apisupport@bloomberg.net
 maintainers:
-- FN: Bloomberg L.P.
-  email: apisupport@bloomberg.net
-  url: https://www.bloomberg.com
+  - FN: Bloomberg L.P.
+    email: apisupport@bloomberg.net
+    url: https://www.bloomberg.com
 tags:
-- Financial Services
-- Market Data
-- Trading
-- Analytics
-- Real-time Data
+  - Financial Services
+  - Market Data
+  - Trading
+  - Analytics
+  - Real-time Data
