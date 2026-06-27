@@ -38,7 +38,7 @@ apis:
     url: https://bloomberg.github.io/blpapi-docs/
   - type: GitHubRepository
     url: https://github.com/bloomberg/blpapi-node
-  - type: SDK
+  - type: SDKs
     url: https://pypi.org/project/blpapi/
     title: Python SDK
 - aid: bloomberg-terminals:bloomberg-anywhere-api
@@ -76,10 +76,10 @@ common:
   url: https://developer.bloomberg.com/
 - type: GitHubOrganization
   url: https://github.com/bloomberg
-- type: SDK
+- type: SDKs
   url: https://pypi.org/project/blpapi/
   title: Python SDK (blpapi)
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/blpapi
   title: Node.js SDK
 - type: TermsOfService
