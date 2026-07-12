@@ -70,6 +70,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/bloomberg-terminal/
 common:
+- type: DomainSecurity
+  url: security/bloomberg-terminals-domain-security.yml
 - type: Portal
   url: https://www.bloomberg.com/professional/
 - type: Documentation
