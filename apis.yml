@@ -5,6 +5,18 @@ description: Bloomberg Terminals (Bloomberg Professional Service) are financial 
   offers access to over 35,000 different data types for financial instruments globally, integrated analytics, messaging,
   and the Bloomberg Open API (BLPAPI) for programmatic data access.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
